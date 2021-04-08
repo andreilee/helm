@@ -95,6 +95,25 @@ entries:
     - name: orc8rlib
       version: "0.1.2"
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: 2021-02-24T19:49:46.613971Z
+    description: A Helm chart for magma orchestrator's lte module
+    digest: 43fde029d98436dba23a89f90f139d7bb3c8d169289a7e1cec88c59db5be9e02
+    keywords:
+    - magma
+    - or8cr
+    - lte-orc8r
+    name: lte-orc8r
+    sources:
+    - https://github.com/magma/magma
+    urls:
+    - lte-orc8r-0.2.2.tgz
+    version: "0.2.2"
+    dependencies:
+    - name: orc8rlib
+      version: "0.1.2"
+      repository: file://../../../../orc8r/cloud/helm/orc8rlib
   wifi-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
